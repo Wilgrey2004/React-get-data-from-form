@@ -1,0 +1,48 @@
+.formulario {
+  background-color: lightblue;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+input{
+  border-radius: 30px;
+  text-align: center;
+  width: 50%;
+  height: 50px;
+  margin: 20px;
+  color: black;
+}
+
+input::placeholder{
+  color: rgb(95, 120, 127);
+}
+
+button{
+  width: 50%;
+  height: 50px;
+  margin: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover{
+  box-shadow: 1px 3px 6px black;
+}
+
+.aceptar{
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 255, 81);
+}
+
+.cancelar{
+  color: white;
+  background-color: red;
+}
